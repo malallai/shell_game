@@ -1,0 +1,84 @@
+                          __________________
+                        .-'  \ _.-''-._ /  '-.
+                      .-/\   .'.      .'.   /\-.
+                    _'/  \.'   '.  .'   './  \'_
+                    :======:======::======:======:
+                    '. '.  \     ''     /  .' .'
+                      '. .  \   :  :   /  . .'
+                        '.'  \  '  '  /  '.'
+                          ':  \:    :/  :'
+                            '. \    / .'
+                              '.\  /.'
+                                '\/'
+
+
+                                AIDE
+
+                      (Appuie sur 'q' pour quitter)
+
+
+Tu trouveras ici des informations qui t'aideront pendant toute l'enquête.
+
+En première partie, tu trouveras des indications sur les étapes à effectuer pour retrouver le voleur et le diamant.
+
+En dernière partie, tu trouveras la liste des commnandes importantes que tu pourras utiliser.
+
+
+I / LES ETAPES
+
+- Aller dans le dossier `securite` et changer le mot de passe d'au moins un administrateur
+
+- Aller dans le dossier `associes` et envoyer un mail au collaborateurs du voleur pour les rassembler à un rendez-vous avec la police.
+
+- Aller dans le dossier `admin` et récupérer le mot de passe qui permettra d'accéder à la gestion de l'ordinateur du voleur.
+
+- Accéder à la partie `gestion du système` avec la commande "admin" et localiser où le voleur se cache avec le diamant, pour enfin envoyer sa position à la police.
+
+
+
+
+II / LES COMMANDES
+
+  Utilisation des commandes :
+
+       ==================================================================
+      |      commande + paramètre1 + ...(paramètre2 + paramètre3)...    |
+       ==================================================================
+
+
+  -> 4lfr3d : Demande à 4LFR3D de te donner des indices sur ce qui devrait être fait dans ce dossier.
+
+  -> cat : affiche sur le terminal le contenu du fichier passé en paramètre.
+
+
+  -> ls : affiche l'ensemble des fichiers contenus dans le répertoire indiqué.
+
+    * Si l'option "-a" est donnée en paramètre, tous les fichiers du repertoire
+      indiqué vont s'affichier, ainsi que les fichiers et dossiers cachés.
+
+  -> cd : change le répertoire en cours d'utilisation pour aller dans le
+      repertoire passé en paramètre.
+
+    * Si le chemin ".." est donné en paramètre, le nouveau répertoire
+      sera le repertoire parent (le repertoire précédent).
+
+  -> edit : ouvre l'éditeur de texte pour permettre la modification du
+        fichier passé en paramètre.
+
+    * Pour enregistrer, il faut faire CTRL + X
+
+  -> admin : permet d'acceder à l'espace de gestion de l'ordinateur du voleur.
+
+  -> rm : supprime le fichier passé en paramètre.
+
+  -> aide : ouvre le centre d'aide.
+
+  -> chmod : modifie les permissions d'accès du fichier indiqué.
+
+    * Utilise la commande "chmod +r" pour te donner les droits de lecture du fichier.
+
+  -> mail : envoie un email au destinataire spécifié en paramètre
+
+  -> status : donne l'état de sécurité de l'ordinateur (ne fonctionne que dans la partie gestion de l'ordinateur.)
+
+  -> localisation : tente de localiser le voleur du diamant (ne fonctionne que dans la partie gestion de l'ordinateur.)
